@@ -73,6 +73,13 @@ h1 {
     font-size: 30px;
     margin-top: 15px;
 }
+
+h4 {
+    width: 100%;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 p {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -87,11 +94,15 @@ p {
     margin-top: 10px;
 }
 
-#resumelink {
-    color: #4aaaa5
+#email {
+    color: #4aaaa5;
 }
 
-#resumelink:hover {
+.links {
+    color: #4aaaa5;
+}
+
+.links:hover {
     color: #dddddd;
 }
 
@@ -109,7 +120,7 @@ p {
     margin: 10px 10px 0 10px;
     float: left;
 }
-.tag {
+.tag1 {
     float: left;
     position: absolute;
     background-color: #4aaaa5;
@@ -117,9 +128,22 @@ p {
     width: 300px;
     text-align: center;
     margin: 125px 0 0 0;
-    height: 30px;
-    line-height: 30px;
+    height: 20px;
+    line-height: 20px;
 }
+
+.tag2 {
+    float: left;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 300px;
+    text-align: center;
+    margin: 145px 0 0 0;
+    height: 20px;
+    line-height: 20px;
+}
+
 .portfolioimage {
     width: 300px;
     height: 200px;
